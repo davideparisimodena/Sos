@@ -65,7 +65,7 @@ if api_key:
     
     # Configurazione del modello (usiamo Flash perché è veloce ed economico)
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash",
+        model_name="gemini-2.5-flash",
         system_instruction=SYSTEM_PROMPT
     )
 
